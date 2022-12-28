@@ -1,0 +1,245 @@
+/*--------- ANIMATIONS---------*/
+
+@keyframes blur-slide {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0;
+    filter: blur(0.25rem);
+    transform: translateY(19%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes up-slide {
+  from {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes down-slide {
+  from {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header {
+  height: 100vh;
+  background: linear-gradient(-45deg, #ffffff, #77a1ee, #3677f0, #0059ff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.containerAccueil {
+  margin-top: 5rem;
+}
+
+.name {
+  display: flex;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.downAnimation {
+  animation: down-slide 0.8s cubic-bezier(0.97, 0.02, 0.33, 0.78) forwards;
+}
+
+.upAnimation {
+  animation: up-slide 0.8s cubic-bezier(0.97, 0.02, 0.33, 0.78) forwards;
+}
+
+.blurAnimation {
+  animation: blur-slide 0.8s cubic-bezier(0.97, 0.02, 0.33, 0.78) forwards;
+}
+
+.letterJob {
+  min-width: 5px;
+}
+
+.firstName {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.jobContainer {
+  font-size: 25px;
+}
+
+.buttonListHeader {
+  display: flex;
+  margin: 25px 0 0 0;
+}
+
+.linkButtonHeader {
+  margin-right: 15px;
+  opacity: 0;
+}
+
+.linkHeader {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background: linear-gradient(90deg, white 50%, black 0) var(--_p, 100%) / 200%
+    no-repeat;
+  color: white;
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.linkHeader:hover {
+  color: black;
+}
+
+.svg {
+  height: auto;
+  width: 390px;
+  margin-top: 3rem;
+}
+
+.st0 {
+  filter: drop-shadow(0 0 10px rgba(17, 0, 255, 0.7));
+  fill: none;
+  stroke: #1d1dc2;
+  stroke-width: 105;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 2290;
+  stroke-dashoffset: 2290;
+}
+
+.svgAnim {
+  animation: svgAnim 3s ease forwards;
+}
+
+.upAnimationSvg {
+  animation: up-slide 1.5s cubic-bezier(0.97, 0.02, 0.33, 0.78) forwards;
+}
+
+.st1 {
+  fill: #1d1dc2;
+  filter: drop-shadow(0 0 10px rgba(17, 0, 255, 0.7));
+  opacity: 0;
+}
+
+@keyframes svgAnim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (min-width: 993px) {
+  .header {
+    justify-content: center;
+  }
+  .containerAccueil {
+    margin-left: 5%;
+  }
+
+  .letterJob {
+    min-width: 8px;
+  }
+
+  .svg {
+    width: 500px;
+    margin-left: 20px;
+  }
+
+  .firstName {
+    font-size: 6rem;
+  }
+
+  .jobContainer {
+    font-size: 3rem;
+  }
+
+  .linkHeader {
+    padding: 20px;
+    font-size: 25px;
+  }
+  .linkButtonHeader {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .containerAccueil {
+    margin-left: 5%;
+  }
+
+  .letterJob {
+    min-width: 8px;
+  }
+
+  .firstName {
+    font-size: 5rem;
+  }
+
+  .jobContainer {
+    font-size: 2.5rem;
+  }
+
+  .svg {
+    width: 450px;
+  }
+
+  .linkHeader {
+    padding: 20px;
+    font-size: 25px;
+  }
+  .linkButtonHeader {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .svg {
+    width: 300px;
+  }
+
+  .jobContainer {
+    flex-wrap: wrap;
+  }
+
+  .letterJob {
+    font-size: 22px;
+  }
+}

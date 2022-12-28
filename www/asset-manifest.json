@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.70ad1fd9.css",
+    "main.js": "/static/js/main.9819b12a.js",
+    "static/media/imgMovieApp.png": "/static/media/imgMovieApp.52c60c7692a350a78641.png",
+    "static/media/camValleeCopie.png": "/static/media/camValleeCopie.e649e395ed6f196046ab.png",
+    "static/media/vinCopie.png": "/static/media/vinCopie.afd0b91cc74eb24d5b8c.png",
+    "static/media/weatherapp.png": "/static/media/weatherapp.c49f483785344494c6f6.png",
+    "static/media/pokemonReact.png": "/static/media/pokemonReact.780972926d166aee685c.png",
+    "static/media/Baptiste_Jannequin_CV.pdf": "/static/media/Baptiste_Jannequin_CV.33b1589a7817fd1de3d8.pdf",
+    "static/media/portfolio.png": "/static/media/portfolio.1c8b0278c4a7859e659b.png",
+    "static/media/logo_rendu_final1.png": "/static/media/logo_rendu_final1.8d4f199fc8303080e107.png",
+    "static/media/imgCanvas.png": "/static/media/imgCanvas.b2975dfaca64406a038d.png",
+    "static/media/sass.png": "/static/media/sass.051888ab516950ed48cb.png",
+    "index.html": "/index.html",
+    "main.70ad1fd9.css.map": "/static/css/main.70ad1fd9.css.map",
+    "main.9819b12a.js.map": "/static/js/main.9819b12a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ad1fd9.css",
+    "static/js/main.9819b12a.js"
+  ]
+}

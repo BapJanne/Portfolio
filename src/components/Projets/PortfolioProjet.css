@@ -1,0 +1,33 @@
+.projetContainer {
+  background-color: #70a3fa;
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 5px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.projetContainer img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.projetContainer h2 {
+  margin: 0 0 20px 0;
+}
+
+.portfolioProjet__techno {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 900px) {
+  .projetContainer {
+    height: 600px;
+    margin: 20px;
+  }
+}

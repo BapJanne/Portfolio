@@ -1,0 +1,20 @@
+.projets {
+  margin: 20px;
+}
+
+.projetsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+  margin: auto;
+}
+
+@media screen and (min-width: 900px) {
+  .projets {
+    margin: 20px;
+    max-width: 75%;
+    margin: auto;
+  }
+}
