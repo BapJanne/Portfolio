@@ -22,7 +22,10 @@ const PortfolioProjet = (props) => {
           <PortfolioTechno key={techno} technoTitle={techno} />
         ))}
       </div>
-      {props.siteUrl ? <PortfolioLinkSite siteUrl={props.siteUrl} /> : ""}
+      <div className="buttonContainer">
+        {props.gitHubUrl && <PortfolioLinkSite gitHubUrl={props.gitHubUrl} />}
+        {props.siteUrl && <PortfolioLinkSite siteUrl={props.siteUrl} />}
+      </div>
     </AnimationOnScroll>
   );
 };

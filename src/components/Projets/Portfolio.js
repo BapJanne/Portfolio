@@ -18,6 +18,7 @@ const projets = [
     title: "Ecommerce app",
     imgUrl: require("../../img/commerce.png"),
     siteUrl: "https://shiny-cactus-77a6c7.netlify.app/",
+    gitHubUrl: "https://github.com/BapJanne/react-ecommerce",
     techno: ["React", "Redux", "Typescript", "Redux Toolkit"],
     description:
       "Création d'un shop fourni grâce à l'API de Fake Store Api avec React , Redux toolkit et Typescript.",
@@ -27,6 +28,7 @@ const projets = [
     title: "Movie App v2",
     imgUrl: require("../../img/imgMovieApp.png"),
     siteUrl: "https://super-tanuki-2e4514.netlify.app/",
+    gitHubUrl: "https://github.com/BapJanne/react-movie-v2",
     techno: ["React", "UseContext", "Javascript", "Responsive Design", "Axios"],
     description:
       "Application réalisé avec React afin d'effectuer des recherches de film grâce à l'API fourni par IGDB.",
@@ -36,6 +38,7 @@ const projets = [
     title: "Pokémon App",
     imgUrl: require("../../img/pokemonReact.png"),
     siteUrl: "https://earnest-cascaron-7327b9.netlify.app",
+    gitHubUrl: "https://github.com/BapJanne/ReactPokemon",
     techno: ["React", "UseContext", "Fetch", "Javascript", "Responsive Design"],
     description:
       "Application web réalisée avec React. Elle permet de créer son équipe de Pokémon avec ceux de la 1ère génération (qui est la meilleure), grâce à UseContext.",
@@ -45,6 +48,7 @@ const projets = [
     title: "Weather app",
     imgUrl: require("../../img/weatherapp.png"),
     siteUrl: "https://jazzy-palmier-ad45fc.netlify.app/",
+    gitHubUrl: "https://github.com/BapJanne/WeatherApp-react",
     techno: [
       "React",
       "Axios",
@@ -59,6 +63,7 @@ const projets = [
     id: 6,
     title: "Portfolio",
     imgUrl: require("../../img/portfolio.png"),
+    gitHubUrl: "https://github.com/BapJanne/Portfolio",
     techno: ["React", "Javascript", "HTML/CSS", "Responsive Design"],
     description:
       "Ce portfolio sur lequel vous vous trouvez à été fait avec React.",
@@ -78,6 +83,7 @@ const Portfolio = () => {
             techno={projet.techno}
             description={projet.description}
             siteUrl={projet.siteUrl}
+            gitHubUrl={projet.gitHubUrl}
           />
         ))}
       </div>

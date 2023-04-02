@@ -20,3 +20,11 @@
   box-shadow: 8px 8px 5px rgb(60, 60, 60, 0.6);
   transform: scale(1.05);
 }
+
+.portfolioLinkGit {
+  padding: 8px;
+}
+
+.portfolioLinkGit img {
+  width: 40px;
+}

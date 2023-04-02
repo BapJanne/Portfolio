@@ -25,6 +25,11 @@
   flex-wrap: wrap;
 }
 
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (min-width: 900px) {
   .projetContainer {
     height: 600px;
