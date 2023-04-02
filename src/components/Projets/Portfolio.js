@@ -5,6 +5,34 @@ import "./Portfolio.css";
 const projets = [
   {
     id: 1,
+    title: "Wordle FR",
+    imgUrl: require("../../img/wordle.png"),
+    siteUrl: "https://helpful-twilight-38e2cb.netlify.app/",
+    gitHubUrl: "https://github.com/BapJanne/react-ts-wordle",
+    techno: ["React", "Redux", "Typescript", "Redux Toolkit", "Vite"],
+    description:
+      "Reproduction du célébre jeu Wordle du New York times avec des mots Français.",
+  },
+  {
+    id: 2,
+    title: "Ecommerce app",
+    imgUrl: require("../../img/commerce.png"),
+    siteUrl: "https://shiny-cactus-77a6c7.netlify.app/",
+    techno: ["React", "Redux", "Typescript", "Redux Toolkit"],
+    description:
+      "Création d'un shop fourni grâce à l'API de Fake Store Api avec React , Redux toolkit et Typescript.",
+  },
+  {
+    id: 3,
+    title: "Movie App v2",
+    imgUrl: require("../../img/imgMovieApp.png"),
+    siteUrl: "https://super-tanuki-2e4514.netlify.app/",
+    techno: ["React", "UseContext", "Javascript", "Responsive Design", "Axios"],
+    description:
+      "Application réalisé avec React afin d'effectuer des recherches de film grâce à l'API fourni par IGDB.",
+  },
+  {
+    id: 4,
     title: "Pokémon App",
     imgUrl: require("../../img/pokemonReact.png"),
     siteUrl: "https://earnest-cascaron-7327b9.netlify.app",
@@ -13,7 +41,7 @@ const projets = [
       "Application web réalisée avec React. Elle permet de créer son équipe de Pokémon avec ceux de la 1ère génération (qui est la meilleure), grâce à UseContext.",
   },
   {
-    id: 2,
+    id: 5,
     title: "Weather app",
     imgUrl: require("../../img/weatherapp.png"),
     siteUrl: "https://jazzy-palmier-ad45fc.netlify.app/",
@@ -21,7 +49,6 @@ const projets = [
       "React",
       "Axios",
       "Javascript",
-      "HTML/CSS",
       "Responsive Design",
       "localStorage",
     ],
@@ -29,50 +56,7 @@ const projets = [
       "Application web réalisée avec React. Elle permet de regarder la météo d'une ville en France. De plus, il est possible d'ajouter des villes dans le profil, grâce à localStorage.",
   },
   {
-    id: 3,
-    title: "Movie App",
-    imgUrl: require("../../img/imgMovieApp.png"),
-    siteUrl: "https://movie-app-70d77c.netlify.app/",
-    techno: [
-      "React",
-      "Javascript",
-      "SAAS",
-      "HTML",
-      "Responsive Design",
-      "Axios",
-    ],
-    description:
-      "Application réalisé avec React afin d'effectuer des recherches de film grâce à l'API fourni par IGDB.",
-  },
-  {
-    id: 4,
-    title: "Dessine avec canvas !",
-    imgUrl: require("../../img/imgCanvas.png"),
-    siteUrl: "https://quiet-pothos-e361a9.netlify.app",
-    techno: ["Javascript", "HTML/CSS"],
-    description:
-      "Lors du 1er confinement, avec mes amis nous jouons beaucoup à skribble.io, un site qui se base sur le jeu pictionary. J'ai donc voulu reproduire le fait de pouvoir dessiner sur un site web pour m'entrainer à Javascript.",
-  },
-  {
-    id: 5,
-    title: "Reproduction du site du vin Delauney",
-    imgUrl: require("../../img/vinCopie.png"),
-    siteUrl: "https://rainbow-rabanadas-b084e7.netlify.app/",
-    techno: ["Bootstrap", "HTML/CSS", "Responsive Design"],
-    description:
-      "Reproduction du site vin Delauney avec Bootstrap, effectué lors de mon DUT MMI.",
-  },
-  {
     id: 6,
-    title: "CAM Vallée du Cher Controis",
-    imgUrl: require("../../img/camValleeCopie.png"),
-    siteUrl: "",
-    techno: ["Wordpress", "Javascript", "Responsive Design", "HTML/CSS"],
-    description:
-      "Site de l'association du club d'athlétisme 'CAM Vallée du Cher Controis' effectué avec Wordpress.",
-  },
-  {
-    id: 7,
     title: "Portfolio",
     imgUrl: require("../../img/portfolio.png"),
     techno: ["React", "Javascript", "HTML/CSS", "Responsive Design"],

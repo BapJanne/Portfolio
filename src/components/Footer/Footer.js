@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <h3>Travailler, apprendre et s'améliorer chaque jour.</h3>
-      <p>© 2022 Baptiste Jannequin</p>
+      <p>© 2023 Baptiste Jannequin</p>
     </div>
   );
 };

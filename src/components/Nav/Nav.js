@@ -59,7 +59,7 @@ const Nav = () => {
       <div
         className="navMobile__menu"
         style={{
-          transform: !menuOpen ? "translateY(-95px)" : "translateY(95px)",
+          transform: !menuOpen ? "translateY(-150px)" : "translateY(95px)",
         }}
       >
         <ul className="navMobile__list">
