@@ -5,6 +5,16 @@ import "./Portfolio.css";
 const projets = [
   {
     id: 1,
+    title: "Twitter copie",
+    imgUrl: require("../../img/twitterCopie.png"),
+    siteUrl: "https://fanciful-syrniki-bda683.netlify.app/",
+    gitHubUrl: "https://github.com/BapJanne/react-tweeter",
+    techno: ["MongoDB", "Express", "React", "NodeJS", "Typescript"],
+    description:
+      "Création d'une application MERN full stack, avec les opérations CRUD et authentification, basé sur twitter (enfin X).",
+  },
+  {
+    id: 2,
     title: "Wordle FR",
     imgUrl: require("../../img/wordle.png"),
     siteUrl: "https://helpful-twilight-38e2cb.netlify.app/",
@@ -14,7 +24,7 @@ const projets = [
       "Reproduction du célébre jeu Wordle du New York times avec des mots Français.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Ecommerce app",
     imgUrl: require("../../img/commerce.png"),
     siteUrl: "https://shiny-cactus-77a6c7.netlify.app/",
@@ -24,7 +34,7 @@ const projets = [
       "Création d'un shop fourni grâce à l'API de Fake Store Api avec React , Redux toolkit et Typescript.",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie App v2",
     imgUrl: require("../../img/imgMovieApp.png"),
     siteUrl: "https://super-tanuki-2e4514.netlify.app/",
@@ -34,7 +44,7 @@ const projets = [
       "Application réalisé avec React afin d'effectuer des recherches de film grâce à l'API fourni par IGDB.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Pokémon App",
     imgUrl: require("../../img/pokemonReact.png"),
     siteUrl: "https://earnest-cascaron-7327b9.netlify.app",
@@ -44,7 +54,7 @@ const projets = [
       "Application web réalisée avec React. Elle permet de créer son équipe de Pokémon avec ceux de la 1ère génération (qui est la meilleure), grâce à UseContext.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Weather app",
     imgUrl: require("../../img/weatherapp.png"),
     siteUrl: "https://jazzy-palmier-ad45fc.netlify.app/",
@@ -60,7 +70,7 @@ const projets = [
       "Application web réalisée avec React. Elle permet de regarder la météo d'une ville en France. De plus, il est possible d'ajouter des villes dans le profil, grâce à localStorage.",
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio",
     imgUrl: require("../../img/portfolio.png"),
     gitHubUrl: "https://github.com/BapJanne/Portfolio",
